@@ -57,4 +57,11 @@ console.log("Memory: "+ os.totalmem()/1000000000 + "GB");
 console.log(" free: "+os.freemem()/1000000000 + "GB");
 console.log("CPU "+ util.inspect(os.cpus()));
 console.log("Network "+ util.inspect(os.networkInterfaces()));
-console.log("programe end");
+
+console.log("==========================================================================================================================")
+
+const portfolio = require('./PortfolioTask');
+portfolio.studentInfo;
+console.log(portfolio.dateTimeNow);
+console.log("Student's favourite language: " + portfolio.studentFavLanguage);
+console.log(portfolio.b);
